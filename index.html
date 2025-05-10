@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration System</title>
+  <!-- Link to external CSS file for styling -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Page Header -->
+  <header>
+    <h1>Student Registration System</h1>
+    <p>Register, edit, and manage student records easily with this simple interface.</p>
+  </header>
+
+  <!-- Main Section for Form and Table -->
+  <main>
+    <!-- Student Registration Form -->
+    <form id="student-form">
+      <!-- Input field for Student Name -->
+      <input type="text" id="name" placeholder="Student Name" required />
+      <!-- Input field for Student ID -->
+      <input type="text" id="studentId" placeholder="Student ID" required />
+      <!-- Input field for Class -->
+      <input type="text" id="class" placeholder="Class" required />
+      <!-- Input field for Roll No. -->
+      <input type="text" id="rollNo" placeholder="Roll No." required />
+      <!-- Submit button to add student -->
+      <button type="submit">Add Student</button>
+    </form>
+
+    <!-- Section to display the student records -->
+    <section id="records-section">
+      <h2>Registered Students</h2>
+      <table id="student-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Class</th>
+            <th>Roll No.</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Student records will be dynamically inserted here by JavaScript -->
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <!-- Link to JavaScript file for dynamic functionality -->
+  <script src="script.js"></script>
+</body>
+</html>

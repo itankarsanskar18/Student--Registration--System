@@ -1,0 +1,84 @@
+/* Set global font and remove default margins and padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+  }
+  
+  /* Style the header section */
+  header {
+    background: #007acc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the form container */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Style each input field in the form */
+  form input {
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  /* Style the submit button */
+  form button {
+    padding: 10px;
+    background: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  form button:hover {
+    background: #005f99;
+  }
+  
+  /* Style the student records section */
+  #records-section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    overflow-y: auto; /* Enable vertical scrollbar if content grows */
+    max-height: 300px;
+  }
+  
+  /* Style for table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style table headers */
+  thead {
+    background-color: #007acc;
+    color: white;
+  }
+  
+  /* Style table cells */
+  td, th {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  /* Style for Edit/Delete buttons */
+  .action-btn {
+    margin: 0 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
